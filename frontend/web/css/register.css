@@ -1,0 +1,30 @@
+.contain{ background: #000000; }
+.main { width: 380px; height: 500px; margin: 0 auto; margin-top: 10px;}
+.main .title { height: 50px ;}
+.main .title h2{ color: #ffffff; text-align: center;}
+.main_regster{ width: 80%; height: auto;background: #F7F7F7; border: 6px solid #394557; none; padding: 20px 20px 0 20px;}
+.new_style{height: 40px; border-bottom:1px #80C3A6 solid;}
+.new_style h3{color:green;letter-spacing: 1px; background: url('../images/pe_icon.jpg') no-repeat; text-indent: 40px;}
+
+.detail {font-size: 12px; height: 40px; line-height: 40px; text-indent: 4px; letter-spacing: 1px;}
+.form-control {border:1px solid #ccc !important;width: 100%; height: 35px;line-height: 35px; text-indent: 10px;  margin: 5px 0 ;}
+.email{ background: #fff url(../images/reg_icon.png) 100% 5px no-repeat ;}
+.username{ background: #fff url(../images/reg_icon.png) 100% -35px no-repeat ;}
+.password{ background: #fff url(../images/reg_icon.png) 100% -78px no-repeat ;}
+.confrimpassword{ background: #fff url(../images/reg_icon.png) 100% -124px no-repeat ;}
+.accept{ height: 35px ; line-height: 35px;font-size: 12px;}
+.accept a{color:blue}
+.help-block-error{color:red; font-size: 12px;}
+.button_style{height: 50px; line-height: 50px;}
+.button_style button { color: #ffffff; background: #ABBAC3 ;width: 100px;padding: 5px 0;  cursor: pointer;}
+.button_style button:hover{background: #7B9AAC}
+.button_style input[type="submit"]{ background: #80B378;color: #ffffff;width: 170px;padding: 5px 0; cursor: pointer;}
+.button_style input[type="submit"]:hover {background: #65A05C}
+.reset {background:  url(../images/arrow_l.png)no-repeat 10px 4px; width: 100%; display: inline-block; }
+.back{height: 40px; line-height: 40px; text-align:center;background: #76B774 ;position: relative; margin-left:-20px; width: 113%; margin-top: 4px; cursor: pointer; }
+.back a{ color: #FFEE99;}
+
+.back_red{background-color: #C16050;}
+.Retrieve {height: 40px; border-bottom:1px #C16050 solid;}
+.Retrieve h3{color: #C16050; text-indent: 35px; background: url(../images/lock.png) no-repeat ; }
+.send{ background: #D15B47; color: #ffffff; float: right; width: 100px; padding: 5px 0; margin: 10px 0  0 0 ; cursor: pointer; }

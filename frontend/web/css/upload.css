@@ -1,0 +1,45 @@
+@CHARSET "UTF-8";
+.main_upload{ clear: both; background:#ffffff; width: 94%; margin: 20px auto;  min-height:850px;
+		   -webkit-box-shadow: 3px 3px 3px;  
+		 			  -moz-box-shadow: 3px 3px 3px;  
+		 			  box-shadow: 0px 2px 5px;   
+ }
+ .main_upload .title{ width: 100%; cursor:pointer;}
+ .main_upload .title span{width: 50%; text-align: center; display: inline-block; float: left; height: 50px; line-height: 50px; font-weight: bold; letter-spacing: 2px; font-size: 20px; color:#999;}
+ .main_upload .title .check{ background: #C9B010;color:#ffffff;}
+ .main_upload .title .img_up{}
+ .main_upload .title .img_vedio{}
+ .main_upload h2 {text-align: center; color: #ccc; height: 60px; line-height: 50px; margin: 50px 0;  clear: both; border-bottom: 1px solid #ccc; padding-top: 10px;}
+ .content{ width: 96%; padding: 2%}
+ .content .content_l{width: 50%; float: left;}
+ .content .content_l .checkP{ width: 60%; height: 300px; line-height: 300px; font-size: 20px; font-weight: bold;color: #ccc; text-align: center; margin: 40px auto; border:4px dashed  #ccc;background: url(../images/upload.png) 10% 125px no-repeat; }
+.content .content_l .checkP span{cursor: pointer; }
+  .content .content_l .file{  display: none;}
+
+ .content .content_r{width: 50%; float: left; font-size: 20px; color: #666666}
+  .content_r label{display: block; width: 100%; height: 50px;line-height: 50px;}
+ .content_r  .text{border:1px solid #ccc !important; width: 100%; height: 50px; background: #999; color:white; font-size: 14px; text-indent: 10px;}
+.dsc_content{width: 100%;height: 100px; min-width: 100%;min-height: 100px; max-height: 100px}
+.dsc_content:focus{box-shadow:  1px 1px 5px #C4E0EC}
+.submit{margin: 20px 0 }
+.submit button{width: 20%; height: 40px; line-height: 40px; background: #C9B010; color: #ffffff} 
+.submit button:hover{background: #ECD22B}
+.content_r .number {float: right; color:red; font-size: 12px; margin-top: 10px; display: none}
+.sub_up{ float: right;}
+.line{ border-bottom: 1px #ccc solid}
+
+ /*上传视频*/
+.vedio_content{width: 100%;padding: 0 20%; display: none; margin: 10px 0;}
+.vedio_content label {color: #3E9726}
+.vedio_content .or{color: #3E9726 ;text-align: center; width: 100%;display: inline-block;height: 30px;line-height: 30px;font-weight: bold;}
+.vedio_content .form-control {width: 100%; border-radius: 4px; border:1px solid #ccc ; box-shadow: 1px 1px 4px #ffffff; height: 40px; text-indent: 10px;}
+.vedio_content .form-control:focus{box-shadow: 1px 1px 4px #BDDEF8;border:1px solid #4EAEF8; font-weight: bold; letter-spacing: }
+.vedio_content select{width: 100%;height: 40px;line-height: 40px; text-indent: 10px;font-weight: bold; letter-spacing: 1px; color:#666;}
+.vedio_content select option{text-indent: 10px;}
+.vedio_content h4{ height: 50px; line-height: 50px;}
+.vedio_content p{line-height: 40px; font-size: 14px; font-weight: bold;letter-spacing: 1px;}
+
+/*上传图片样式*/
+#form-group{display: none; position: absolute; top:100px;  width: 80% ;left: 10%;box-shadow: 1px 1px 4px; background: #F7F7F7 ; padding-bottom: 20px;padding-top:10px;z-index: 10000;}
+#form-group .col-lg-6 {width: 100%;}
+#form-group .close_i{float: right; width: 40px ;height: 40px; margin-right: 20px; background: url(../images/icon/icon_s.png) -174px  0px no-repeat;cursor: pointer; }

@@ -1,0 +1,90 @@
+@CHARSET "UTF-8";
+body{ background: url(../images/bg.jpg) fixed center center; background-size: 100%;}
+.main_per{width: 94%; margin: 0 3%; clear:both; height: 270px; background-color: #343434; position: absolute;}
+.img_sign {background: url(../banner/8.png) no-repeat ; background-size: 100%; height: 220px;}
+.img_sign .upload {  float: right; margin:15px; padding: 5px; font-size: 12px;  background:#ffffff  url(../images/icon/upload_y.jpg) 5px 0 no-repeat; width: 100px;text-indent: 25px; cursor: pointer;}
+.pre_s{width: 100%; height: 150px; position: relative; margin-top:-100px; box-shadow: 1px 5px 2px }
+.pre_s .pre_img{margin-left: 0px; width: 10%; float: left; margin-right: 20px;}
+.pre_s .pre_img img {width: 100%; border: 4px solid #fff;}
+.pre_s .pre_t{ float: left; height: 100%; width: 85%}
+.pre_s .pre_t span{ color: #ffffff; font-weight: bold;  display: inline-block; margin: 45px 10px; }
+.pre_s .pre_t  ul  {width: 80%; margin: 18px 0;}
+.pre_s .pre_t  ul li { float: left; width: 15%; margin-left: 10px;}
+.pre_s .pre_t  ul li a{color: #ffffff; cursor: pointer;}
+.pre_s .pre_t  ul li a:hover { color: #C9B010;}
+
+.edit{  float: right;text-align:center;height: 35px ;line-height: 35px;  border-radius: 4px; width: 100px !important; background: #4C4C4C url(../images/icon/tool.png) no-repeat 10px -155px ;color: #ffffff}
+.edit:hover{ background-color: #5E5E5E;color: #ffffff;}
+
+.main_info{width: 100%;  height: 1600px; background: #ffffff; clear: both; }
+.main_info .info { width: 15%; height: inherit;  float: left; border-right: 1px #999 solid}
+.main_info .info ul {margin-top: 20px;}
+.main_info .info ul .check{ background: #333; }
+.main_info .info ul .check a{color: #ffffff;}
+.main_info .info ul li{ text-indent: 50px;padding: 10px 0 ; }
+.main_info .info ul li a{ color: #999}
+.main_info .info ul li:hover{background: #333; }
+
+.main_info .content { width: 59%; height: inherit;  float: left;}
+.main_info .content .write{ width: 93%; border:1px solid #ccc;  height: 150px; margin:20px auto; border-radius: 10px; box-shadow: 1px 2px 5px #DDDCDC;}
+.main_info .content .write h5{ height: 30px; line-height: 30px; text-indent: 20px; color: #C9B010}
+.main_info .content .write  textarea{font-style: normal; width: 59%; min-width: 59% ; max-width:59%;float: left; height: 50%; min-height:50%; max-height: 50%; margin-
+
+left: 10px;}
+.main_info .content .write>span{width: 12.5%; border: 1px solid #ccc; display: inline-block; text-align: center; float: left; height: 50%; background: #BCE0F7;border-
+
+left: none; cursor: pointer;}
+.main_info .content .write  em{ background:url(../images/icon/camere.png) 10px -91px no-repeat ; width: 50%;   height: 70%; display: inline-block; margin-top:10px;   }
+.main_info .content .write  .vedio em { background:url(../images/icon/camere.png) 10px 0px no-repeat ;}
+.main_info .content .write  .music em { background:url(../images/icon/camere.png) 10px -48px no-repeat ;}
+.main_info .content .write p span{float:  right;width: 50px; height: 30px; line-height: 30px; display: inline-block; background: #C9B010 ; text-align: center; 
+
+color:#ffffff; padding: 0 10px; margin: 5px 10px; border-radius: 5px; cursor: pointer; }
+.main_info .content  .write p span:hover{ background: #F3D425}
+
+.content  .main{ width: 96%; padding:0 2%;height:auto}
+.content  .main dl{ float: left; border: 1px solid #ccc; width: 96%; padding:2%; border-radius: 5px;}
+.content  .main dl dt{ height: auto;}
+.content  .main dl dt p{font-size: 20px; color: #999; text-indent: 20px; height: 30px; line-height: 30px ;font-size: 16px;}
+.content  .main dl dt p .title{ font-weight:bold; font-size: 20px;}
+.content  .main dl dt .name{ height: 40px; line-height: 40px; color:#C9B010; font-weight: bold;}
+.content  .main dl dd{width: 100% ;text-align: center;height: 400px; overflow: hidden;}
+.content  .main dl dd img{width: 90%;}
+.content  .main dl ul {width: 70%; float: left; margin-top: 15px;}
+.content  .main dl ul li {float: left; margin-left: 10px; width: 20%;  border-radius: 4px; text-align: center; background: #B1B1B1; padding: 3px 0 ; }
+.content  .main dl ul li  a{color: #fff}
+
+.content  .main dl .label{  background:url(../images/icon/love.png) 20px 20px no-repeat ; width: 40px;display: inline-block; height: 40px; float: left}
+.content  .main dl {margin: 10px 0;}
+.content  .main dl .buttom {  width: 65%; float: left;}
+.content  .main dl .buttom span{ width: 40px;height: 40px; background: #cccccc; display: inline-block;  border-radius: 4px; margin-top : 10px; margin-right: 10px; 
+
+cursor: pointer;} 
+.content  .main dl .buttom span:hover{background-color:#C9B010;}
+.content  .main dl .buttom .zan{ background:  #cccccc url(../images/icon/tool.png) 10px -99px no-repeat ;}
+.content  .main dl .buttom .notzan{ background:  #cccccc url(../images/icon/tool.png) 10px -128px no-repeat ;}
+.content  .main dl .buttom .love{ background:  #cccccc url(../images/icon/tool.png) 10px -221px no-repeat ;}
+.content  .main dl .buttom .comment{ background:  #cccccc url(../images/icon/tool.png) 10px -187px no-repeat ;}
+/*分享*/
+.bshare-custom{width: 35%;float: left; margin-top: 30px;}
+
+
+.main_info .tag { width: 24%; height: inherit;   float: left; border-left: 1px solid #999;padding-left: 1%}
+.main_info .tag .title ,.main_info .tag .super_user{ color: #999;  height: 40px; line-height: 40px; background: url(../images/icon/icon-trending-arrow.png) 5px 10px 
+
+no-repeat; text-indent: 30px; width: 100%; display: inline-block;font-weight: bold;}
+
+.main_info .tag ul li {float: left; border-radius: 4px; padding: 2px 5px; margin:5px 5px;}
+.main_info .tag ul li a{color: #fff; font-size: 14px;}
+.blue { background: blue}
+.yellow { background: yellow}
+.purple{background: purple;}
+.green{ background: green;}
+.line{border-bottom: 1px solid #999; clear: both; height: 20px;}
+.main_info .tag .super_user{background: url(../images/icon/icon-award.png) 5px 10px no-repeat;margin:5px 0;}
+.main_info .tag .super_user .ss{ float: right; margin-right: 20px;}
+.main_info .tag ol {width: 100%;}
+.main_info .tag ol li{height: 40px ;line-height: 40px; text-indent: 4px; background: url(../images/icon/icon_shading.png) no-repeat 0 12px; }
+.main_info .tag ol li em{font-weight: bold; color: #ffffff; margin-right: 20px;}
+.main_info .tag ol li a{color: #999;font-weight: bold;	}
+.main_info .tag ol li  span { color: #999; float: right; font-size: 14px;}

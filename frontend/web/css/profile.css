@@ -1,0 +1,81 @@
+@CHARSET "UTF-8";
+.main_profile{width: 94% ; height:850px; margin: 20px auto; background: #ffffff;-webkit-box-shadow: 3px 3px 3px;  
+		 			  -moz-box-shadow: 3px 3px 3px;  
+		 			  box-shadow: 0px 2px 5px;   }
+.main_profile h4 { height: 50px ;line-height: 70px; text-indent: 80px; font-weight: bold;background: url(../images/icon/portrait.png) 30px 10px no-repeat ; border-bottom: 1px solid #ccc;}		 			 
+.main_profile h4 .back_pe{font-size: 14px; float: right; margin-right: 30px; cursor: pointer; color: #000000; position: relative; }
+.main_profile h4 .back_pe:hover{color: #C9B010 ;}
+
+.main_profile h4 .back_pe:after, .main_profile h4 .back_pe:before {
+  border: 6px solid transparent;
+  border-left: 6px solid #fff;
+  width: 0;
+  height: 0;
+  position: absolute;
+  top: 30px;
+  right: -20px;
+  content: ' '
+}
+
+.main_profile h4 .back_pe:before {
+  border-left-color: #000000;
+  right: -23px;
+}
+
+.info_l {width: 50%;float: left; padding-left: 10%;}
+.info_l .form-control{width: 80%; float: right; border: 1px solid #ccc; box-shadow: 1px 1px 3px; }
+.info_l label{height: 30px; line-height: 30px;}
+.info_l .sex{ margin-left: 70px;}
+.info_l h5{font-weight: bold; text-align: center; font-size: 16px; height: 40px; line-height: 40px;}
+
+.info_r {width: 50%;float: left; padding: 0 5% ;}
+ .info_r .col-md-6{margin:0 100px !important;}
+ .info_r .click_notice{text-align: center;width: 100%; font-size: 14px; display: inline-block; height: 30px; line-height: 30px;}
+
+ .info_r .banner{}
+ .info_r .banner h5{text-align: center; font-weight: bold;}
+ .info_r .banner .notice{font-size: 12px;}
+.info_r .banner  .clear {margin-left:15px;}
+ .info_r .banner .choces {margin-bottom: 10px; height: 80px;}
+ .info_r .banner .choces span, .file{ width: 100px; height: 40px; line-height: 40px; text-align: center;  display: inline-block; background: #C9B010;color: #ffffff; cursor: pointer; font-weight: bold;}
+ .info_r .banner .choces{margin: 0 10%; }
+ #preview{width:100%;overflow:hidden;}
+.info_r .banner .clear_img{ margin-left: 15px;}
+
+ .save {border-top: 1px solid #ccc ; }
+ .save .save_style , .style_check .finish span{ width: 100px; height: 40px;line-height: 40px;color: #ffffff; background:  #C9B010 ; display: inline-block; float: right; text-align: center; font-size: 16px; font-weight: bold; margin:20px 10px;cursor: pointer; }
+ .save .save_style:hover , .style_check .finish span:hover{background: #DFC209}
+
+/*上传文件样式更改*/
+.file {
+    position: relative;
+    top:15px;
+    left: 10px;
+    display: inline-block;
+    overflow: hidden;    
+    text-decoration: none;
+    cursor: pointer;    
+}
+.file:hover{text-decoration: none;color:#ffffff;}
+.file input {
+    position: absolute;
+    font-size: 100px;
+    right: 0;
+    top: 0;
+    opacity: 0;
+}
+
+.style_check{ background: #ffffff; -webkit-box-shadow: 3px 3px 3px;  
+		 			  -moz-box-shadow: 3px 3px 3px;  
+		 			  box-shadow: 0px 2px 5px;  width: 1270px; height: 1000px; margin: 150px  auto; position: absolute;display: none;z-index: 1001}
+.style_check .banner_main{width: 100%}		 			  
+.style_check .banner_main img {width: 100%}
+.style_check ul {width: 90%; margin: 10px auto; }
+.style_check li {float: left; width: 46%; margin:10px 1%; height: 92px; cursor: pointer;}
+.style_check li img {width: 100% ;height: 84px;}
+.style_check .check{border: 4px solid #DFC209}
+.style_check .finish{clear: both; height: 50px; border-top: 1px solid #ccc; line-height: 50px; margin-top: 10px; padding:0  20px }
+.style_check .finish .cancel{float: left;}
+
+ #imghead {filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod=image);}
+

@@ -1,0 +1,26 @@
+@CHARSET "UTF-8";
+body{font-family:"微软雅黑",sans-serif;}
+*{margin:0;padding:0}
+input[type="text"],input[type="submit"],button{border:none}
+a,a:hover {text-decoration: none;}
+li{ list-style: none ;}
+.navbar{display: none;}
+/*工具提示样式*/
+.error{color:red;line-height: 40px; height: 40px;}
+.blank{clear: both; height: 20px;}
+#overlay {
+    background: #000;
+    filter: alpha(opacity=50); /* IE的透明度 */
+    opacity: 0.5;  /* 透明度 */
+    display: none;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;    
+    z-index: 1000; /* 此处的图层要大于页面 */
+    display:none;
+    
+}
+
+.load{ widows:150px; height: 150px;position: absolute; display: none;z-index: 1001}

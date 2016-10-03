@@ -1,0 +1,84 @@
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.428571429;
+  color: #333333;
+  background-color: #ffffff; 
+}
+li{ list-style: none ;}
+.img-responsive{
+	max-width: 100%;
+	height: auto;
+	display: inline-block;
+ 
+}
+.main {
+   margin-right: auto;
+   margin-left: auto;
+   width: 100%;  
+}
+.container:before,
+.container:after {
+  display: table;
+  content: " ";
+}
+.down{  
+  cursor: pointer; 
+  width:0;
+  height:0;
+  margin-left:40px;
+  margin-right: 20px;
+  display:inline-block; 
+  border-right: 7px solid transparent;
+  border-top: 7px solid #E68007;
+  border-left: 7px solid transparent;
+}
+#overlay {
+    background: #000;
+    filter: alpha(opacity=50); /* IE的透明度 */
+    opacity: 0.5;  /* 透明度 */
+    display: none;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;    
+    z-index: 1000; /* 此处的图层要大于页面 */
+}
+.logining {
+      display: none;
+      width: 40% ; height: auto;
+      background: #ffffff; 
+      position: absolute;      
+      z-index: 100000;
+      padding: 10px  30px 30px 30px ;
+      box-shadow: 1px 1px 4px;
+  }
+.logining .icon_close{height: 30px; }
+.logining .icon_close .close{float: right; font-size: 14px;background: url('../images/close.png') 35px 5px no-repeat; width: 55px; height: 30px; line-height:30px ;display: inline-block;}
+.logining .login-fgetpwd{float: right;}
+.logining h3{height: 40px; line-height: 40px;}
+.logining .logins{height:50px; line-height: 50px}
+.logining .baidu{width:60px; display: inline-block;float: left;}
+.logining .baidu img {width: 100%}
+.logining .qq{width:25px; display: inline-block;float: left; margin-left: 10px }
+.logining .qq img{width: 100%}
+.logining .account {float: right;display: inline-block;}
+
+
+.logining .submit{
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  background: #2C9DF4;
+  border: none;
+}
+
+.load{ widows:150px; height: 150px;position: absolute; display: none;z-index: 1001}
+
+.load_comment{width: 50px; height: 50px; background: url('../images/loading.gif') no-repeat ; margin: 50px auto;display: block;}
+.blank{clear: both; height: 20px;}
